@@ -1,5 +1,6 @@
 package com.mrsenjar.testmod;
 
+import com.mrsenjar.testmod.configuration.ConfigurationHandler;
 import com.mrsenjar.testmod.proxy.IProxy;
 import com.mrsenjar.testmod.reference.Reference;
 import com.mrsenjar.testmod.utility.*;
@@ -21,7 +22,7 @@ public class TestMod
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)
 	{
-		
+		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	}
 	
 	@Mod.EventHandler
