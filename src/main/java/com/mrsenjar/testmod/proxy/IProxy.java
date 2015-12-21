@@ -1,5 +1,6 @@
 package com.mrsenjar.testmod.proxy;
 
-public interface IProxy {
+public interface IProxy 
+{
 
 }

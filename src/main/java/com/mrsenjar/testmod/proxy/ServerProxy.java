@@ -1,5 +1,6 @@
 package com.mrsenjar.testmod.proxy;
 
-public class ServerProxy {
+public class ServerProxy extends CommonProxy
+{
 
 }
